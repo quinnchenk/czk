@@ -29,23 +29,23 @@
 
 # social menu links
 
-[[social]]
-  name = "github"
-  type = "social"
-  weight = 1
-  url = ""
-[[social]]
-  name = "twitter"
-  weight = 2
-  url = ""
-[[social]]
-  name = "linkedin"
-  weight = 3
-  url = ""
-[[social]]
-  name = "rss"
-  weight = 4
-  url = ""
+#[[social]]
+#  name = "github"
+#  type = "social"
+#  weight = 1
+#  url = ""
+#[[social]]
+#  name = "twitter"
+#  weight = 2
+#  url = ""
+#[[social]]
+#  name = "linkedin"
+#  weight = 3
+#  url = ""
+#[[social]]
+#  name = "rss"
+#  weight = 4
+#  url = ""
 
 # other supported social links
 # name = "youtube"
