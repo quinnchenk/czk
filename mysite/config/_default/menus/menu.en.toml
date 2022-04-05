@@ -10,17 +10,17 @@
 
 # Submenus are done this way: parent -> identifier
 [[main]]
-  name = "链接"
+  name = "有趣的链接"
   identifier = "Links"
   weight = -108
 [[main]]
   parent = "Links"
-  name = "LinkedIn"
-#  url = "https://www.linkedin.com/"
+  name = "娃娃工具"
+  url = "https://www.iamwawa.cn/holiday.html"
 [[main]]
   parent = "Links"
-  name = "Twitter"
-#  url = "https://twitter.com/"
+  name = "在线工具"
+  url = "https://tool.lu/"
 
 [[main]]
   name = "关于我"
@@ -28,7 +28,7 @@
   weight = -107
 
 # social menu links
-
+# 太阳旁边的按钮
 #[[social]]
 #  name = "github"
 #  type = "social"
