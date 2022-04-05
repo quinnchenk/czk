@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>鹿泉</title>
-    <link>https://yyczk.netlify.app/</link>
-    <description>Recent content on 鹿泉</description>
+    <title>Technology on 鹿泉</title>
+    <link>https://yyczk.netlify.app/categories/technology/</link>
+    <description>Recent content in Technology on 鹿泉</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 05 Apr 2022 21:17:20 +0800</lastBuildDate><atom:link href="https://yyczk.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Apr 2022 21:17:20 +0800</lastBuildDate><atom:link href="https://yyczk.netlify.app/categories/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>数仓建模</title>
       <link>https://yyczk.netlify.app/post/%E6%95%B0%E4%BB%93%E5%BB%BA%E6%A8%A1/</link>
@@ -19,88 +19,6 @@
           
             关于数仓的建模有两种基本的模型
 数仓建模的模型 关于数仓的建模有两种基本的模型  关系建模 从全企业的高度设计一个3NF（三范式）模型的方法，用实体加关系描述的数据模型描述企业和业务架构。在范式理论上符合三范式，站在企业角度面向主题抽象，而不是针对某个具体业务流程的实体对象关系抽象。它更多是面向数据的整合和一致性，正如Inmon所希望达到的“single version of the truth”。典型代表就是雪花模型 维度模型 维度建模以分析决策的需求出发构建模型，构建的数据模型为分析需求服务，因此它重点解决用户如何快速完成分析需求，同时还有较好的大规模复杂查询的响应性能，更直接面向业务。 为什么维度建模是数仓/商业智能项目成功的关键？ 因为不管我们的数据量从GB到TG 还是PB，虽然数量越来越大，但是数据展现要获得成功，就必须建立在简单性的基础上，而维度建模就是时刻考虑如何能提供简单性，以业务为驱动，以用户理解性和查询性能为目标。典型的代表就是星型模型。  维度模型分为：事实表和维度表  事实表： 事实表用来记录具体事件，包含了每个事件的具体要素，以及具体发生的事情。事实就是主干，简明扼要的介绍一个事实。  事实表的特征：  每一个事实表的行包括有可加性数值的度量值； 与维度表相连接的外键，通常具有两个和两个以上的外键； 记录非常多行数 内容相对窄即列数较少（主要是外键id和度量值） 经常发生变化，每天会新增加很多   事实表的分类：  事务型事实表 以每一个事务或事件为单位，例如一个销售订单记录，一笔支付记录等，作为事实表里的一行数据。一旦事务被提交，事实表数据被插入，数据就不再进行更改，其更新方式为增量更新。 周期型快照事实表 表中不会保留所有数据，只保留固定时间间隔的数据，例如每天或者每月的销售额或者每月的账户余额等。 例如购物车，有加减商品，随时都有可能变化，但是我们更关心每天结束时这里面有多少商品，方便我们后期统计。 累计型事实表 这种表用于跟踪业务事实的变化。例如，数仓中可能需要累积或者存储订单 从下单开始，到订单商品被打包、运输、和签收的各个业务阶段的时间点数据来跟踪订单的进展情况。当这个业务过程进行时，事实表的记录也要不断更新。 累无事实的事实表 该类事实表是没有数字化的值但是还有      
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Using Notices</title>
-      <link>https://yyczk.netlify.app/post/notices/</link>
-      <pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://yyczk.netlify.app/post/notices/</guid>
-      <description>
-        
-          
-            The &amp;quot;Notices&amp;quot; shortcode enables you to call out pieces of information - sidebars, warnings, tips, etc.
-To create a notice on a page, you can use the notice shortcode.
-You use the notice shortcode, with the first parameter being one of note, info, tip, and warning. Then add a title for your note in quotes as the second parameter. The inner body of the note can be whatever markdown you want to create.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://yyczk.netlify.app/post/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://yyczk.netlify.app/post/markdown-syntax/</guid>
-      <description>
-        
-          
-            &lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://yyczk.netlify.app/post/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://yyczk.netlify.app/post/placeholder-text/</guid>
-      <description>
-        
-          
-            &lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://yyczk.netlify.app/post/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://yyczk.netlify.app/post/math-typesetting/</guid>
-      <description>
-        
-          
-            &lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://yyczk.netlify.app/post/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://yyczk.netlify.app/post/emoji-support/</guid>
-      <description>
-        
-          
-            &lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
           
           
         
